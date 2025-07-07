@@ -1,0 +1,10 @@
+* {
+  background-color: hsl(74, 71%, 93%);
+}
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.cast {
+  height: 70%;
+  display: inline-block;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration_form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="first_block">
+        <div class="fixed">
+            <h1>Event
+                Registration</h1>
+        </div>
+
+        <div class="main_content">
+            <fieldset style="height: 100%;">
+
+                <pre>
+                <form action="">
+            <label for="Name">NAME  :</label>            <input type="text" name="name" id="Name" placeholder="enter ur name">
+
+            <label for="phonenumber">PH_NUMBER:</label>  <input type="phone number" name="name" id="phonenumber" placeholder="9949XXXXXX">
+
+            <label for="EMAIL">EMAIL  :</label>            <input type="email" name="email" id="email" placeholder="name@gmail.com">
+
+            <label for="password">PASSWORD</label>         <input type="password" value="" placeholder="ENTER PASSWORD"  minlength="5">
+
+            <label >sex: </label>                   <label for="male">male</label><input type="radio" name="main" value="male">    <label for="female">female</label><input type="radio" name="female" value="female">
+
+            <label>COUNTRY:</label>        <select name="countries" id="countries"><option value="disabled" selected hidden> select your option</option>
+            <option value="usa">USA</option>
+            <option value="india">INDIA</option>
+            <option value="japan">JAPAN</option>
+            <option value="china">china</option>
+            <option value="australia">australia</option>
+            <option value="other">other</option>
+            </select>
+
+            <label for="time :">DATE-TIME</label>       <input type="datetime-local" value="datetime" id="time">
+
+           <center><H3>EVENT DETAILS...</H2></center> 
+            <label for="catagories">EVENT TYPE :</label>              <select name="catagories" id="catagories">
+                <option value="disabled" selected hidden>select</option>
+                <option value="catagories">ONLINE</option>
+                <option value="catagories">OFFLINE</option>
+            </select>
+
+            <label for="catagories">EVENT CATAGORIES:</label>  <select name="catagories" id="catagories"><option value="disabled" selected hidden>select your programme</option>
+                <option value="catagories">cybersecurity conference</option>
+                <option value="catagories">javafullstack programme</option>
+                <option value="catagories">IT workshops</option>
+    </select>
+    <fieldset>
+        <legend>select your intereseted stream</legend>
+        <input type="checkbox" name="check" value="checkbox1">PRO_AI
+        <input type="checkbox" name="check" value="checkbox2">DATA SCIENCE
+        <input type="checkbox" name="check" value="checkbox3">INFORMATION HANDLING
+    </fieldset>
+    
+          <label for="files">required documents</label>   <input type="file">
+          <input type="reset">
+                                            <center><input type="submit" id="submit" placeholder="submit"></center>
+                                            <center><button vlaue="button" style="width: 40px; height: 20px;"> hello</button></center>
+
+    
+            </form>
+            </pre>
+            </fieldset>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
